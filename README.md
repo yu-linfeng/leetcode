@@ -11,3 +11,5 @@
 9.Palindrome Number——18/01/08</br>
 13.Roman To Integer——18/01/09</br>
 14.Longest Common Prefix——18/01/09</br>
+20.Valid Parentheses——18/01/09</br>
+21.Merge Two Sorted Lists——18/01/09</br>
