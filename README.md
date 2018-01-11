@@ -13,3 +13,8 @@
 14.Longest Common Prefix——18/01/09</br>
 20.Valid Parentheses——18/01/09</br>
 21.Merge Two Sorted Lists——18/01/09</br>
+26.Remove Duplicates From Sorted Array——18/01/10</br>
+27.Remove Element——18/01/10</br>
+28.Implement strSr——18/01/10</br>
+35.Search Insert Position——18/01/10</br>
+38.★★★Count And Say——18/01/10</br>
