@@ -4,7 +4,7 @@
 2.[Add Two Numbers](https://github.com/yu-linfeng/leetcode/tree/master/java/addtwonumbers)</br>
 3.[Longest Substring Without Repeating Characters](https://github.com/yu-linfeng/leetcode/blob/master/java/LongestSubstring.java)
 ## Python(3.6)
-1.Two Sum——17/05/28</br>
+<img src="resources/easy.png" width=70 height=25/>1.Two Sum——17/05/28</br>
 2.Add Two Numbers——17/05/29</br>
 3.Longest Substring Without Repeating Characters——17/05/29</br>
 6.★★★★Zigzag Conversion——18/01/16</br>
