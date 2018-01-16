@@ -7,6 +7,7 @@
 1.Two Sum——17/05/28</br>
 2.Add Two Numbers——17/05/29</br>
 3.Longest Substring Without Repeating Characters——17/05/29</br>
+6.★★★★Zigzag Conversion——18/01/16</br>
 7.Reverse Integer——18/01/08</br>
 9.Palindrome Number——18/01/08</br>
 13.Roman To Integer——18/01/09</br>
@@ -18,4 +19,3 @@
 28.Implement strSr——18/01/10</br>
 35.Search Insert Position——18/01/10</br>
 38.★★★Count And Say——18/01/10</br>
-06.★★★★Zigzag Conversion——18/01/16</br>
