@@ -1,13 +1,16 @@
 # leetcode oj
+<img src="resources/easy.jpg" style="margin-bottom:-3px"/> **Easy** 
+<img src="resources/medium.jpg" style="margin-bottom:-3px"/> **Medium**
+<img src="resources/Hard.jpg" style="margin-bottom:-3px"/> **Hard**
 ## Java(1.7)
 1.[Two Sum](https://github.com/yu-linfeng/leetcode/blob/master/java/TwoSum.java)</br>
 2.[Add Two Numbers](https://github.com/yu-linfeng/leetcode/tree/master/java/addtwonumbers)</br>
 3.[Longest Substring Without Repeating Characters](https://github.com/yu-linfeng/leetcode/blob/master/java/LongestSubstring.java)
 ## Python(3.6)
-<img src="resources/easy.png" width=70 height=25/>1.Two Sum——17/05/28</br>
+<img src="resources/easy.jpg" style="margin-bottom:-3px"/> 1.Two Sum——17/05/28</br>
 2.Add Two Numbers——17/05/29</br>
 3.Longest Substring Without Repeating Characters——17/05/29</br>
-6.★★★★Zigzag Conversion——18/01/16</br>
+<img src="resources/medium.jpg" style="margin-bottom:-3px"/> 6.★★★★Zigzag Conversion——18/01/16</br>
 7.Reverse Integer——18/01/08</br>
 8.String To Integer——18/01/16 **正则表达式**</br>
 9.Palindrome Number——18/01/08</br>
