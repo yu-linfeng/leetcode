@@ -26,7 +26,7 @@ package com.coderbuff.leetcode._04;
 public class Solution {
 
     /**
-     * 将两个数组按大小合并后计算，但时间复杂度为O(log(m+n))
+     * 将两个数组按大小合并后计算，但时间复杂度为O(m+n)
      * @param nums1 数组一
      * @param nums2 数组二
      * @return 中位数
@@ -72,6 +72,12 @@ public class Solution {
         return result;
     }
 
+    /**
+     * TODO 时间复杂度要求O(log(m+n))
+     * @param nums1
+     * @param nums2
+     * @return
+     */
     public double findMedianSortedArrays2(int[] nums1, int[] nums2) {
         return 0.0;
     }
