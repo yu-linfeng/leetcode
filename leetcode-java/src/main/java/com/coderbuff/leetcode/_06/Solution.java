@@ -36,7 +36,9 @@ package com.coderbuff.leetcode._06;
  */
 public class Solution {
     public String convert(String s, int numRows) {
-
+        if (numRows < 2) {
+            return s;
+        }
         return null;
         //1
         //2
