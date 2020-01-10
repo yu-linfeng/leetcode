@@ -9,3 +9,8 @@
 
 [杭州电子科技大学OJ](http://acm.hdu.edu.cn/)
 
+
+
+博客地址:[**https://yulinfeng.cnblogs.com**](https://yulinfeng.cnblogs.com)。关注微信公众号:**CoderBuff**，及时收到作者的最新博客。
+
+<div align=center><img width="426" height="238" src="https://raw.githubusercontent.com/yu-linfeng/BlogRepositories/master/resources/img/coderbuff.png"/></div>
