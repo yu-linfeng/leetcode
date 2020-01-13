@@ -58,6 +58,6 @@ public class Solution {
                 i++;
             }
         }
-        return i + 1;
+        return i;
     }
 }
