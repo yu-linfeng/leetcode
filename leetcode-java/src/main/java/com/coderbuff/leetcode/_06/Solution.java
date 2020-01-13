@@ -39,11 +39,17 @@ public class Solution {
         if (numRows < 2) {
             return s;
         }
-        return null;
-        //1
-        //2
-        //3
-        //4 6
-        //5
+        StringBuilder sb = new StringBuilder();
+        int cycleLen = 2 * numRows - 2;
+        for (int i = 0; i < numRows; i++) {
+            for (int j = 0; j + i < s.length(); j += cycleLen) {
+                sb.append(s.charAt(i + j));
+                if (i != 0 && i != numRows - 1 && j + cycleLen - i < s.length()) {
+                    sb.append(s.charAt(cycleLen + j - i));
+                }
+            }
+        }
+
+        return sb.toString();
     }
 }
