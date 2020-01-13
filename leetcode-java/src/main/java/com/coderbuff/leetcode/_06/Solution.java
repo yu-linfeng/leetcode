@@ -1,5 +1,8 @@
 package com.coderbuff.leetcode._06;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * 将一个给定字符串根据给定的行数，以从上往下、从左到右进行 Z 字形排列。
  *
@@ -52,4 +55,31 @@ public class Solution {
 
         return sb.toString();
     }
+
+    public String convert2(String s, int numRows) {
+        if (numRows == 1) {
+            return s;
+        }
+
+        List<StringBuilder> rows = new ArrayList<>();
+        for (int i = 0; i < Math.min(numRows, s.length()); i++) {
+            rows.add(new StringBuilder());
+        }
+        int currentRow = 0;
+        boolean goingDown = false;
+        for (char c : s.toCharArray()) {
+            rows.get(currentRow).append(c);
+            if (currentRow == 0 || currentRow == numRows - 1) {     //第一行、最后一行。遍历掉头
+                goingDown = !goingDown;
+            }
+            currentRow += goingDown ? 1 : -1;
+        }
+        StringBuilder result = new StringBuilder();
+        for (StringBuilder row : rows) {
+            result.append(row);
+        }
+
+        return result.toString();
+    }
+
 }
