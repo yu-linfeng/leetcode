@@ -42,4 +42,25 @@ public class Solution {
 
         return maxArea;
     }
+
+    public int maxArea2(int[] height) {
+        int left = 0;
+        int right = height.length - 1;
+        int maxArea = 0;
+        while (left < right) {
+            int x = right - left;
+            int y = 0;
+            if (height[left] < height[right]) {
+                y = height[left];
+                left++;
+            } else {
+                y = height[right];
+                right--;
+            }
+            if (maxArea < x * y) {
+                maxArea = x * y;
+            }
+        }
+        return maxArea;
+    }
 }
